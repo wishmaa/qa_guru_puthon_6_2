@@ -17,3 +17,4 @@ def test_negative_test(size_window):
     browser.open('https://google.com')
     browser.element('[name="q"]').should(be.blank).type('qsdfsdfweegwegwegwegwegwdwsa').press_enter()
     browser.element('[id="result-stats"]').should(have.text('Результатов: примерно 0'))
+
